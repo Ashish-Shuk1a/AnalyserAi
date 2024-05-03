@@ -1,0 +1,14 @@
+{
+  "name" : "react extension",
+  "description" : "this is description",
+  "version" : "0.0.1",
+  "permissions": 
+    ["activeTab", "tabs"],
+  
+
+  "manifest_version" :3,
+"action" : {
+  "default_popup" : "index.html"
+}
+
+}
