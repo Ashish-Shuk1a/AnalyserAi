@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import ReviewAnalysisTable from "./ReviewAnalysisTable";
-const genAI = new GoogleGenerativeAI("AIzaSyDmnLNJ6kmDogUz9jGDo8i9XxScTxDvSgc");
+const genAI = new GoogleGenerativeAI("");
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 export default function AskAI() {
