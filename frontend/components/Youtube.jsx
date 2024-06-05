@@ -19,7 +19,7 @@ export default function Youtube() {
   //   const notify = (text) =>
   //     toast(text, { className: "text-white bg-blue-500 font-semibold" });
   // Define the API key and URL for YouTube Data API v3
-  const API_KEY = "AIzaSyCR8QsFiXpfKoJ-rpWrzr-9PdOzLFF4qtA";
+  const API_KEY = "";
   const API_URL = "https://www.googleapis.com/youtube/v3/search";
 
   // Define a function to handle the form submission
