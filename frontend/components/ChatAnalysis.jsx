@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { TextToSpeech } from "tts-react";
 
 import ReviewAnalysisTable from "./ReviewAnalysisTable";
-const genAI = new GoogleGenerativeAI("AIzaSyDmnLNJ6kmDogUz9jGDo8i9XxScTxDvSgc");
+const genAI = new GoogleGenerativeAI("");
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 export default function ChatAnalysis() {
