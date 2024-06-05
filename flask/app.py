@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)
-api_url = "https://api.apify.com/v2/acts/junglee~amazon-reviews-scraper/run-sync-get-dataset-items?token=apify_api_PIVg196KLR7NEJSweVbBkYVp46Z0vV23w0vP"
+api_url = "https://api.apify.com/v2/acts/junglee~amazon-reviews-scraper/run-sync-get-dataset-items?token="
 
 sentiment_pipeline = pipeline("sentiment-analysis",model="siebert/sentiment-roberta-large-english")
 emotion_pipeline = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion', tokenizer='bhadresh-savani/bert-base-uncased-emotion')
